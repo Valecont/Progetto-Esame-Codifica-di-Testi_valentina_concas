@@ -68,13 +68,13 @@ h1{ color:rgb(1, 1, 32) ;
    text-align: center;
    
    }
-/* Hover ed effetti visivi */
+
 #info:hover, #storia:hover, #descrizione:hover, #dati:hover, #note:hover,.immagine:hover, .testo:hover {
     background-color:#eeebebe0;
     border-color: #bbb;
 }
 
-/* Margini e spaziatura */
+
 div p {
     margin: 1rem 0;
     text-align: justify;
@@ -82,15 +82,15 @@ div p {
 #del,#gap,#unclear{font-style: oblique;}
 #pg{
     margin-left: 30rem;
-    display: flex; /* Imposta il layout delle immagini in una riga */
-    justify-content: center; /* Centra il contenuto */
-    gap: 2rem; /* Distanza tra le immagini */
-    margin: 2rem auto; /* Centra il blocco delle pagine */
+    display: flex; 
+    justify-content: center; 
+    gap: 2rem; 
+    margin: 2rem auto; 
     padding: 5rem;
-    max-width: 90%; /* Limita la larghezza totale */
-    border: 1px solid #ccc; /* Aggiunge un bordo per definire il blocco */
+    max-width: 90%; 
+    border: 1px solid #ccc; 
     border-radius: 10px;
-    background-color: #eeebebe0; /* Sfondo leggero per il blocco */
+    background-color: #eeebebe0; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -109,17 +109,17 @@ div p {
 }
 
 span{
-    text-align: center; /* Centra il testo sotto ciascuna immagine */
+    text-align: center; 
     flex: 1;
     font-weight: bolder;
 }
 
 .immagine img{
-    width: auto; /* Adatta l'immagine allo spazio disponibile */
+    width: auto; 
     height: 400px;
     margin-right:  50px;
-    border-radius: 10px; /* Angoli arrotondati */
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Effetto hover */
+    border-radius: 10px; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
     transition: opacity 0.3s ease;
     opacity: 0.7
@@ -146,7 +146,7 @@ span{
     width: 30%;
     border: 3px solid rgb(5, 5, 28);;
     padding: 10px;
-    text-align: center; /* Centra il testo all'interno degli elementi */
+    text-align: center; 
     text-decoration: underline;
     font-weight: bolder;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
@@ -154,7 +154,7 @@ span{
     
     }
 #legenda p {
-        text-align: center; /* Centra il testo in ogni paragrafo */
+        text-align: center; 
     }
 #one::before{
     content: " ";
@@ -204,7 +204,7 @@ span{
     cursor: pointer;
 }
 
-/* Per schermi piccoli (smartphone: larghezza fino a 600px) */
+
 @media screen and (max-width: 600px) {
     body {
         font-size: 14px;
@@ -217,7 +217,7 @@ span{
     }
 
     .navMenu ul {
-        flex-direction: column; /* Imposta i link della navbar uno sotto l'altro */
+        flex-direction: column; 
         align-items: center;
     }
 
@@ -232,11 +232,11 @@ span{
     }
 
     #pg {
-        flex-direction: column; /* Dispone le immagini una sotto l'altra */
+        flex-direction: column; 
     }
 
     .immagine img {
-        height: 250px; /* Ridimensiona le immagini */
+        height: 250px; 
     }
 
     
@@ -247,7 +247,7 @@ span{
     }
 }
 
-/* Per schermi medi (tablet: larghezza da 601px a 1024px) */
+
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     body {
         font-size: 16px;
@@ -272,16 +272,16 @@ span{
     }
 
     #pg {
-        flex-direction: row; /* Mantiene le immagini in riga */
+        flex-direction: row; 
         gap: 1rem;
     }
 
     .immagine img {
-        height: 350px; /* Dimensioni medie per le immagini */
+        height: 350px; 
     }
 
     #legenda {
-        grid-template-columns: repeat(1, 1fr); /* Due colonne nella legenda */
+        grid-template-columns: repeat(1, 1fr); 
     }
 
     #legenda p {
@@ -290,7 +290,7 @@ span{
     }
 }
 
-/* Per schermi grandi (desktop: larghezza sopra 1024px) */
+
 @media screen and (min-width: 1025px) {
     body {
         font-size: 18px;
@@ -303,7 +303,7 @@ span{
     }
 
     .navMenu ul {
-        justify-content: space-around; /* Spaziatura uniforme tra gli elementi */
+        justify-content: space-around; 
     }
 
     .navMenu li {
