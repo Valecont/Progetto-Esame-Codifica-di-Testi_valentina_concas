@@ -1,0 +1,3 @@
+java -cp "xerces/xercesImpl.jar;xerces/xml-apis.jar;xerces/xercesSamples.jar" dom.Counter -v progettoValentinaConcas.xml
+Risultato:
+progettoValentinaConcas.xml: 215;26;0 ms (371 elems, 1323 attrs, 2286 spaces, 6530 chars)

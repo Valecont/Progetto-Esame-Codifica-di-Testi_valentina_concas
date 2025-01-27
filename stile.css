@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(1, 1, 32);
+    display: flex;
+    justify-content: center;
+}
+
+.navMenu li {
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+.navMenu li:hover{
+    text-decoration: overline;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 10px;
+}
+.navMenu a {
+    color: #fff;
+    text-decoration: none;
+}
+.navMenu a:hover{
+    color:rgb(5, 5, 28);
+    padding:1rem
+}
+
+
+#info, #storia, #descrizione, #dati, #note,#pg,.testo {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#info h3, #storia h3, #descrizione h3, #dati h3, #note h3, #pagine h2, #pagine h4,#pagine p,.immagine,#note p, div h3 {
+    margin-top: 0;
+    color:rgb(1, 1, 32);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+h1{ color:rgb(1, 1, 32) ;
+    text-shadow: #444;
+   text-align: center;
+   
+   }
+/* Hover ed effetti visivi */
+#info:hover, #storia:hover, #descrizione:hover, #dati:hover, #note:hover,.immagine:hover, .testo:hover {
+    background-color:#eeebebe0;
+    border-color: #bbb;
+}
+
+/* Margini e spaziatura */
+div p {
+    margin: 1rem 0;
+    text-align: justify;
+}
+#del,#gap,#unclear{font-style: oblique;}
+#pg{
+    margin-left: 30rem;
+    display: flex; /* Imposta il layout delle immagini in una riga */
+    justify-content: center; /* Centra il contenuto */
+    gap: 2rem; /* Distanza tra le immagini */
+    margin: 2rem auto; /* Centra il blocco delle pagine */
+    padding: 5rem;
+    max-width: 90%; /* Limita la larghezza totale */
+    border: 1px solid #ccc; /* Aggiunge un bordo per definire il blocco */
+    border-radius: 10px;
+    background-color: #eeebebe0; /* Sfondo leggero per il blocco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#pagine:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#pagine h2 {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+span{
+    text-align: center; /* Centra il testo sotto ciascuna immagine */
+    flex: 1;
+    font-weight: bolder;
+}
+
+.immagine img{
+    width: auto; /* Adatta l'immagine allo spazio disponibile */
+    height: 400px;
+    margin-right:  50px;
+    border-radius: 10px; /* Angoli arrotondati */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Effetto hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: opacity 0.3s ease;
+    opacity: 0.7
+}
+.immagine img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    height: 450px;
+    background-color:#eeebebe0;
+   
+}
+.testo {
+    flex: 1;
+    padding: 1.5rem;
+}
+
+.name{
+    font-weight: bold;
+    
+}
+
+#legenda {
+    margin: auto;
+    width: 30%;
+    border: 3px solid rgb(5, 5, 28);;
+    padding: 10px;
+    text-align: center; /* Centra il testo all'interno degli elementi */
+    text-decoration: underline;
+    font-weight: bolder;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    border-radius: 5%;
+    
+    }
+#legenda p {
+        text-align: center; /* Centra il testo in ogni paragrafo */
+    }
+#one::before{
+    content: " ";
+  padding:2px;
+  padding-right: 25px;
+  margin-right: 4px;
+  border: 1px  solid black;
+  background-color: #9fed9fdd;
+  font-weight: bold;
+  border-radius: 50%
+}
+#two::before {
+    content: " ";
+    padding:2px;
+    padding-right: 25px;
+    margin-right: 4px;
+    border: 1px  solid black;
+    background-color:#FFDAB9;
+    font-weight: bold;
+    border-radius: 50%
+  
+  
+    
+}
+#tree::before {
+    
+    content: " ";
+  padding:2px;
+  padding-right: 25px;
+  margin-right: 4px;
+  border: 1px  solid black;
+  background-color: #E6E6FA;
+  font-weight: bold;
+  border-radius: 50%;
+  
+}
+
+#one,#two,#tree{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 3%;
+   
+  
+}
+#one:hover,#two:hover,#tree:hover{
+    box-shadow: 0 8px 16px rgba(19, 18, 18, 0.861);
+    cursor: pointer;
+}
+
+/* Per schermi piccoli (smartphone: larghezza fino a 600px) */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    header {
+        font-size: 1.2rem;
+        padding: 1rem 0;
+    }
+
+    .navMenu ul {
+        flex-direction: column; /* Imposta i link della navbar uno sotto l'altro */
+        align-items: center;
+    }
+
+    .navMenu li {
+        padding: 0.5rem 0;
+    }
+
+    #info, #storia, #descrizione, #dati, #note, #pg {
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 14px;
+    }
+
+    #pg {
+        flex-direction: column; /* Dispone le immagini una sotto l'altra */
+    }
+
+    .immagine img {
+        height: 250px; /* Ridimensiona le immagini */
+    }
+
+    
+
+    #legenda p {
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+}
+
+/* Per schermi medi (tablet: larghezza da 601px a 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        font-size: 1.5rem;
+        padding: 1.2rem 0;
+    }
+
+    .navMenu ul {
+        flex-direction: row;
+    }
+
+    .navMenu li {
+        padding: 0.5rem 1rem;
+    }
+
+    #info, #storia, #descrizione, #dati, #note, #pg {
+        padding: 1.5rem;
+        margin: 1.5rem;
+    }
+
+    #pg {
+        flex-direction: row; /* Mantiene le immagini in riga */
+        gap: 1rem;
+    }
+
+    .immagine img {
+        height: 350px; /* Dimensioni medie per le immagini */
+    }
+
+    #legenda {
+        grid-template-columns: repeat(1, 1fr); /* Due colonne nella legenda */
+    }
+
+    #legenda p {
+        font-size: 15px;
+        padding: 0.5rem;
+    }
+}
+
+/* Per schermi grandi (desktop: larghezza sopra 1024px) */
+@media screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    header {
+        font-size: 1.8rem;
+        padding: 1.5rem 0;
+    }
+
+    .navMenu ul {
+        justify-content: space-around; /* Spaziatura uniforme tra gli elementi */
+    }
+
+    .navMenu li {
+        padding: 0.7rem 1.5rem;
+    }
+
+    #info, #storia, #descrizione, #dati, #note, #pg {
+        padding: 2rem;
+        margin: 2rem auto;
+        max-width: 100%;
+    }
+
+    #pg {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .immagine img {
+        height: 400px;
+    }
+
+    
+
+    #legenda p {
+        font-size: 16px;
+        padding: 0.7rem;
+    }
+}
