@@ -11,5 +11,5 @@ progettoValentinaConcas.xml: 215;26;0 ms (371 elems, 1323 attrs, 2286 spaces, 65
 # Comando per la generazione del documento HTML di output tramite il processore XSLT Saxon
 java -jar saxon-he-12.5.jar -s:ProgettoValentinaConcas.xml -xsl:stile.xsl -o:output.html
 
-[Visualizza la pagina webl del documento](https://valecont.github.io/Progetto-Esame-Codifica-di-Testi_valentina_concas/)
+[Visualizza la pagina webl del documento](https://valecont.github.io/Progetto-Esame-Codifica-di-Testi_valentina_concas/index.html)
 
