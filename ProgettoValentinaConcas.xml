@@ -109,31 +109,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-		<profileDesc>
-			<!-- descrizione del testo -->
-			<langUsage>
-				<language ident="it">Italiano</language>
-			</langUsage>
-			<textDesc>
-				<channel mode="w" />
-				<constitution type="single" />
-				<derivation type="original" />
-				<domain type="education" />
-				<factuality type="fact" />
-				<interaction type="none" active="singular" passive="self" />
-				<preparedness type="none" />
-				<purpose type="inform" degree="high" />
-			</textDesc>
-			<settingDesc>
-				<setting>
-					<name> Testi registrati dal Centro di Documentazione Ebraica Contemporanea -
-						<abbr type="acronym">CDEC </abbr><placeName>Milano</placeName>, <country key="IT">Italia</country>. </name>
-					<time>
-						<date from="1943" to="1944">1943-1944</date>
-					</time>
-				</setting>
-			</settingDesc>
-		</profileDesc>
+		
     </teiHeader>
     <facsimile>
 		<surface n="1" xml:id="Pag87">
@@ -276,11 +252,11 @@
 					venturosamente.
 				</ab> 
 				<ab type="pericope" n="2" xml:id="Pag88Pericope2">
-					Per la strada in-<!--vedere se è stata messa correttamente ab-->
+					Per la strada in-
 					<lb xml:id="P88R4" n="4" facs="#P88Riga4"/>
-					contro <persName> Maretta</persName> che mi dice:<said>vuoi
+					contro <persName> Maretta</persName> che mi dice:<q>vuoi
 					<lb xml:id="P88R5" n="5" facs="#P88Riga5"/>
-					fare un colpo<pc type="interrogative" force= "strong">?</pc></said>
+					fare un colpo<pc type="interrogative" force= "strong">?</pc></q>
 				</ab>
 				<ab type="pericope" n="3" xml:id="Pag88Pericope3">
 					<del rend="overstrike">Ora par</del> <unclear reason="illegible"></unclear>Stavano
@@ -324,7 +300,7 @@
 					<lb xml:id="P88R20" n="20" facs="#P88Riga20"/>
 					il sole luminoso e il cielo azzurro
 					<lb xml:id="P88R21" n="21" facs="#P88Riga21"/>
-					pensando: <said aloud="false">sarebbe un peccatp morire<!--vedere se mettere qualche etichetta per l' enfasi-->
+					pensando: <said aloud="false">sarebbe un peccato morire
                     <lb xml:id="P88R22" n="22" facs="#P88Riga22"/>
 				     <gap reason="cancelled" extent="1 word"/>in una così bella giornata</said>
 				</ab>

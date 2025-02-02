@@ -1,0 +1,5 @@
+comandi su terminale per verificare che il file xml sia ben formato
+
+javac -cp ".;C:\\Users\\conca\\OneDrive\\Desktop\\progetto_valentina_concas\\xerces\\xercesImpl.jar;C:\\Users\\conca\\OneDrive\\Desktop\\progetto_valentina_concas\\xerces\\xml-apis.jar" XmlValidator.java
+
+java -cp ".;C:\\Users\\conca\\OneDrive\\Desktop\\progetto_valentina_concas\\xerces\\xercesImpl.jar;C:\\Users\\conca\\OneDrive\\Desktop\\progetto_valentina_concas\\xerces\\xml-apis.jar" XmlValidator
