@@ -6,10 +6,10 @@ Il progetto è stato realizzato da Valentina Concas per il corso di Codifica di 
 
 java -cp "xerces/xercesImpl.jar;xerces/xml-apis.jar;xerces/xercesSamples.jar" dom.Counter -v progettoValentinaConcas.xml
 ## Ottenendo il seguente risultato:
-progettoValentinaConcas.xml: 215;26;0 ms (371 elems, 1323 attrs, 2286 spaces, 6530 chars)
+progettoValentinaConcas.xml: 285;31;0 ms (351 elems, 1277 attrs, 2188 spaces, 6402 chars)
 
 # Comando per la generazione del documento HTML di output tramite il processore XSLT Saxon
 java -jar saxon-he-12.5.jar -s:ProgettoValentinaConcas.xml -xsl:stile.xsl -o:output.html
 
-[Visualizza la pagina webl del documento](https://valecont.github.io/Progetto-Esame-Codifica-di-Testi_valentina_concas/)
+[Visualizza la pagina webl del documento]( https://valecont.github.io/Progetto-Esame-Codifica-di-Testi_valentina_concas/index.html)
 
