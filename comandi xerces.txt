@@ -1,6 +1,4 @@
-<<<<<<< HEAD:comandi xerces.txt
-Comandi Xerces:
-=======
+
 Codice Xerces:
 >>>>>>> 0a90d28c9c9d784a3b0c6ea2886a1477ce53af2f:comandi terminale.txt
 java -cp "xerces/xercesImpl.jar;xerces/xml-apis.jar;xerces/xercesSamples.jar" dom.Counter -v progettoValentinaConcas.xml
@@ -10,9 +8,3 @@ Risultato:
 progettoValentinaConcas.xml: 285;31;0 ms (351 elems, 1277 attrs, 2188 spaces, 6402 chars)
 
 
-
-
-
-=======
-progettoValentinaConcas.xml: 215;26;0 ms (371 elems, 1323 attrs, 2286 spaces, 6530 chars)
->>>>>>> 0a90d28c9c9d784a3b0c6ea2886a1477ce53af2f:comandi terminale.txt
